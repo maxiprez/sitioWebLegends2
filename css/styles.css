@@ -17,6 +17,7 @@ body {
 /* NAVBAR */
 .navbar-brand {
   margin-left: 2rem !important;
+  margin-right: 5rem !important;
   color: #e1c847 !important;
   text-transform: uppercase;
   font-family: 'Bebas Neue', cursive;
@@ -33,7 +34,7 @@ body {
   margin: 0 auto !important;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
-  padding-left: 10rem; }
+  padding-left: 1.5rem; }
 
 /* ESTO ES PARA EL EFECTO DEL DROPDOWN Y PARA SEPARAR LAS SECCIONES: */
 .navbar .nav-item:not(:last-child) {
@@ -47,7 +48,7 @@ body {
 
 .dropdown-menu {
   margin-top: 0;
-  background-color: rgba(0, 0, 0, 0.808) !important;
+  background-color: rgba(0, 0, 0, 0.315) !important;
   animation-name: aparecer;
   animation-duration: 0.8s; }
 
@@ -63,18 +64,18 @@ body {
   background-color: rgba(0, 0, 0, 0) !important;
   color: grey !important; }
 
-/* ANIMACIÓN DEL SUBMENÚ */
+/* ANIMACIÓN DEL SUBMENÚ: */
 @keyframes aparecer {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
 
+/* CAROUSEL */
 .carousel-slides, .slide1, .slide2, .slide3, .slide1-productos, .slide2-productos, .slide3-productos {
   background-size: cover;
   background-position: center center; }
 
-/* CAROUSEL */
 .slide1 {
   background-image: url(../images/carraousel1.jpg); }
 
