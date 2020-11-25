@@ -1,0 +1,570 @@
+.no-gutters{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.body-productos{
+  background-color: #dee2e6;
+}
+
+/* NAVBAR */
+
+.navbar-brand{
+margin-left: 2rem !important;
+color: #e1c847 !important;
+text-transform: uppercase;
+font-family: 'Bebas Neue', cursive;
+font-size: 1.5rem;
+}
+    
+
+
+.gris{
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+  .top-nav-collapse{
+    background-color: rgba(0, 0, 0, 0.89) !important;
+   
+}
+  
+  .navbar-nav,
+  .mr-auto {
+    margin: 0 auto !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding-left: 10rem;
+  }
+    
+  /* ESTO ES PARA EL EFECTO DEL DROPDOWN Y PARA SEPARAR LAS SECCIONES: */
+  .navbar .nav-item:not(:last-child) {
+    margin-right: 15px;
+  }
+   
+  .dropdown-toggle::after {
+     transition: transform 0.15s linear; 
+  }
+   
+  .show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+    
+  }
+  
+  .dropdown-menu {
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.808) !important;
+    animation-name: aparecer;
+    animation-duration: 0.8s;
+        }
+
+    @media (max-width: 992px){
+      .dropdown-menu{
+      background-color: black !important;
+      }
+    }
+
+
+
+    .dropdown-item{
+     color: white !important;
+    
+    }
+
+    .dropdown-menu :hover{
+      margin-top: 0;
+      background-color: rgba(0, 0, 0, 0) !important;
+      color: grey !important;
+      }
+
+  
+     
+
+
+/* ANIMACIÓN DEL SUBMENÚ */
+@keyframes aparecer {
+  0% {opacity: 0;}
+  100%{opacity: 1;}
+    }
+
+    .carousel-slides{
+      background-size: cover;
+      background-position: center center;
+    }
+    /* CAROUSEL */
+    .slide1{
+        background-image: url(../images/carraousel1.jpg);
+       @extend.carousel-slides;
+      }
+      .slide2{
+        background-image: url(../images/carraousel2.jpg);
+        @extend.carousel-slides;
+      }
+      .slide3{
+        background-image: url(../images/carraousel3.jpg);
+        @extend.carousel-slides;
+      }
+      .carousel-item{
+        height: 400px;
+      }
+
+      /* CAROUSEL PRODUCTOS PAGE */
+    .slide1-productos{
+      background-image: url(../images/carraousel2-4.jpg);
+     @extend.carousel-slides;
+    }
+    .slide2-productos{
+      background-image: url(../images/carraousel2-2.jpg);
+      @extend.carousel-slides;
+    }
+    .slide3-productos{
+      background-image: url(../images/carraousel2-3.jpg);
+      @extend.carousel-slides;
+    }
+
+    .carousel-item{
+      height: 400px;
+    }
+      @media (min-width: 992px){
+        .carousel-item{
+        height: 100vh !important;
+        }
+      }
+
+      .productos-about-container{
+        padding: 2rem 2rem !important;
+        color: white !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+      }
+
+      .about-container{
+        background-color: black;
+        @extend.productos-about-container;
+         }
+
+      .about-text{
+        padding: 2rem !important;
+        color: white !important;
+        margin-bottom: 10rem !important;
+      }
+
+    .logo{
+    border-radius: 2px;
+    width: 100px;
+   }
+ 
+   .productos-container{
+    background-color: #495057 !important;
+    @extend.productos-about-container;
+   }
+
+/* FORMULARIO DE CONTACTO: */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+.body-form { background:rgb(0, 0, 0); /*padding: 2rem 1rem 5rem 1rem; border-radius: 2rem;*/}
+form { max-width:420px; margin:50px auto; padding-top:5rem; padding-bottom: 6rem; background-color: black;}
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid white;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid grey; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:rgb(48, 44, 44);
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:white;
+color: black;}
+
+.form-text-title{
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 2rem !important;
+  color: white !important;
+}
+
+/* IMAGENES DE IG: */
+.images-text-footer{
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 2rem !important;
+  color: white;
+  font-size: 0.9rem;
+}
+
+ /* FOOTER */
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+/* The footer is fixed to the bottom of the page */
+
+footer{
+	  width: 100%;
+    position: absolute;
+    bottom: 0;
+    align-self: flex-end;
+}
+
+
+ @media (max-height:800px){
+	footer { position: static; }
+/*	header { padding-top:0px; }*/
+}
+
+
+.footer-distributed{
+	background-color: #212529;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+  font-family: 'Bebas Neue', cursive;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+  width: 6rem;
+  height: 6rem;
+}
+
+.footer-distributed h3 span{
+	color:  #ffffff;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+  margin: 20px 0 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+  vertical-align: middle
+ }
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #ffffff;
+	text-decoration: none;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+.iconosFooter{
+  width: 5px;
+  height: 5px;
+}
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* ESTO ES PARA QUE EL FOOTER SEA RESPONSIVE */
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+}
+
+/*ZOOM PARA QUE ESCALEN LOS PRODUCTOS Y EL ICONO DE WS*/
+
+
+.zoom {
+    transition: transform 0.6s !important;
+     margin: 0 auto; }
+  
+.zoom:hover {
+      transform: scale(1.1);
+    }
+
+.zoom-productos{
+  transition: transform 0.2s !important;
+        margin: 0 auto;
+}
+
+
+.row-cols-md-4{
+  margin-top: 10rem;
+}
+
+.font-family-upper{
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.container{
+  width: 100%;
+  margin-top: 10%;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.5px;
+  }
+
+
+.titulo-producto h3{
+   font-weight: bold;
+  text-transform: uppercase;
+  @extend.font-family-upper;
+  font-size: 3.5rem;
+  /*margin-top: 5rem;*/
+  color: black;
+  }
+
+  .titulo-producto img{
+    color: black;
+    padding-top: 7rem;
+    }
+
+
+.card{
+  background-color: #dee2e6;
+}
+
+.card-deck{
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+.card-title{
+  text-transform: uppercase;
+}
+
+.card-img-top{
+  width: 250px;
+  height: 250px;
+}
+
+.card-img-polvo{
+margin-top: 1rem;
+height: 180px;
+width: 180px;
+
+}
+
+.card-footer{
+  background-color: #dee2e6;
+}
+
+.product-bottom .fas{
+  color: #6c757d;
+  font-size: 10px;
+}
+
+.product-bottom h3{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.product-bottom h5{
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+/*MODAL CARD*/
+.modal{
+  border: 0px !important;
+}
+
+.border-light{
+  border: 0px !important;
+}
+
+.estrellas-fijacion{
+  margin-left: 50px;
+  color: #6c757d;
+}
+
+.estrellas-brillo{
+  margin-left: 67px;
+  color: #6c757d;
+}
+
+.estrellas-maleabilidad{
+  margin-left: 10px;
+  color: #6c757d;
+}
+
+.modal-title{
+  font-weight: bold;
+}
+
+
+.text-footer-datail{
+  font-size: 0.8rem;
+  color: #6c757d;
+  line-height: 0.3rem; 
+  }
+
+.estrellas-poco{
+  margin-left: 42px;
+  }
+
+.estrellas-medio{
+  margin-left: 37px;
+}
+
+.estrellas-mucho{
+  margin-left: 30px;
+}
+
+.estrellas-excelente{
+  margin-left: 8px;
+  }
+
+  .modal-content{
+    background-color: #dee2e6;
+  }
