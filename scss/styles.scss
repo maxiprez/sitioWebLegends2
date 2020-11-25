@@ -570,38 +570,30 @@ width: 180px;
     background-color: #dee2e6;
   }
 
+     .image{
+      position: relative;
+    }
 
+    .image__img{
+      display: block;
+      width: 100%;
+    }
 
-  .icon-content{
-position: absolute;
-left: 20px;
-right: 50px;
-  }
+    .image__overlay{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: 0.3s;
+    }
 
-  .single-content:after{
-    content: '';
-    display: block;
-    background: darkgray;
-    top: 20px;
-    bottom: 20px;
-    opacity: 0;
-    transform: rotate3d(-1,1,0,100deg);
-    transition: .4s;
-  }
-
- 
-  .icon-content{
-    top: 45%;
-    left: 10%;
-    opacity: 0;
-    z-index: 1;
-    transform: translate(10%,-30%);
-    transition: 0.3s;
-    text-align: center;
-    color: white;
-      }
-
-    .single-content:hover .icon-content{
+    .image__overlay:hover{
       opacity: 1;
-      transition-delay: 0.1s;
     }
