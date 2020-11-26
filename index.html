@@ -149,7 +149,7 @@
 
     <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
       <div class="image">
-         <a href="#exampleModalIg1" class="d-block mb-4 h-100">
+         <a href="#" data-toggle="modal" data-target="#modalIg1" class="d-block mb-4 h-100">
             <img class="img-fluid img-thumbnail image__img" src="images/IG-6.jpg" alt="IG1">
            <div class="image__overlay">
               <div class="image__icon"><i class="fa fa-instagram"></i></div>
@@ -219,23 +219,32 @@
 
 <!--  ACÁ EMPIEZA LOS MODALS DE LAS IMAGENES DE IG: -->
 
-<div class="modal fade" id="exampleModalIg1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+<div class="modal fade" id="modalIg1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+        <div class="card mb-3" style="max-width: 3000px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="images/IG-6_modal.jpg" class="card-img" alt="IG1">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
+     </div>
   </div>
 </div>
 
