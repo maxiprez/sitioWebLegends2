@@ -381,7 +381,7 @@ footer {
   color: black;
   padding-top: 7rem; }
 
-.card {
+.card-productos {
   background-color: #dee2e6; }
 
 .card-deck {
@@ -481,7 +481,12 @@ footer {
 .image__overlay:hover {
   opacity: 1; }
 
-.card-img {
-  width: 400px;
-  height: 400px;
-  object-fit: cover; }
+.card-novedades {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif; }
+
+.card-text-novedades {
+  color: #dee2e6 !important;
+  font-size: 1rem !important;
+  text-transform: uppercase; }

@@ -470,7 +470,7 @@ footer{
     }
 
 
-.card{
+.card-productos{
   background-color: #dee2e6;
 }
 
@@ -598,8 +598,14 @@ width: 180px;
       opacity: 1;
     }
 
-    .card-img{
-      width: 400px;
-      height: 400px;
-      object-fit: cover;
-    }
+  .card-novedades{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+
+ .card-text-novedades{
+   color: #dee2e6 !important;
+   font-size: 1rem !important;
+   text-transform: uppercase;
+ }
