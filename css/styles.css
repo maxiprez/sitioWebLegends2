@@ -480,3 +480,8 @@ footer {
 
 .image__overlay:hover {
   opacity: 1; }
+
+.card-img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover; }
