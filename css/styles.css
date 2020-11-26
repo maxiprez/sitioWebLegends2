@@ -490,3 +490,16 @@ footer {
   color: #dee2e6 !important;
   font-size: 1rem !important;
   text-transform: uppercase; }
+
+@media (max-width: 581px) {
+  .card-img-novedades {
+    height: 25vh !important;
+    width: 25vh !important; } }
+
+@media (max-width: 581px) {
+  .card-text-novedades {
+    font-size: 12px !important; } }
+
+@media (max-width: 581px) {
+  .card-title-novededes {
+    font-size: 13px !important; } }
