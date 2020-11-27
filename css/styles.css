@@ -481,12 +481,18 @@ footer {
 .image__overlay:hover {
   opacity: 1; }
 
-.card-novedades {
+.card-novedades .card-novedades-right {
   background-color: black;
   color: white;
   font-family: 'Roboto', sans-serif; }
 
 .card-text-novedades {
+  color: #dee2e6 !important;
+  font-size: 1rem !important;
+  text-transform: uppercase; }
+
+.card-title {
+  font-weight: bold;
   color: #dee2e6 !important;
   font-size: 1rem !important;
   text-transform: uppercase; }
@@ -503,3 +509,13 @@ footer {
 @media (max-width: 581px) {
   .card-title-novededes {
     font-size: 13px !important; } }
+
+@media (max-width: 581px) {
+  .card-novedades {
+    display: flex;
+    flex-direction: column; } }
+
+@media (max-width: 581px) {
+  .card-novedades-right {
+    display: flex;
+    flex-direction: column-reverse; } }
