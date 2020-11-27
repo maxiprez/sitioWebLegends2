@@ -513,9 +513,13 @@ footer {
 @media (max-width: 581px) {
   .card-novedades {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; } }
 
 @media (max-width: 581px) {
   .card-novedades-right {
     display: flex;
-    flex-direction: column-reverse; } }
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center; } }
