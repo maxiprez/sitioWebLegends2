@@ -399,6 +399,17 @@ footer {
   height: 180px;
   width: 180px; }
 
+@media (max-width: 767px) {
+  .modal-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; } }
+
+@media (max-width: 767px) {
+  .modal-center-text {
+    margin-left: 20%; } }
+
 .card-footer {
   background-color: #dee2e6; }
 
