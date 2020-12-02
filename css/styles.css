@@ -536,3 +536,7 @@ footer {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center; } }
+
+@media (max-width: 581px) {
+  .parrafo-sobreNosotros {
+    font-size: 15px; } }
