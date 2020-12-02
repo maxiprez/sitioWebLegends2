@@ -24,7 +24,7 @@ color: #e1c847 !important;
 text-transform: uppercase;
 font-family: 'Bebas Neue', cursive;
 font-size: 1.5rem;
-}
+  }
     
 
 
@@ -162,7 +162,14 @@ font-size: 1.5rem;
     border-radius: 2px;
     width: 100px;
    }
- 
+
+  .title-productos{
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #f8f9fa;
+   
+  }
+
    .productos-container{
     background-color: #495057 !important;
     @extend.productos-about-container;
