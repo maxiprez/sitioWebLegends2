@@ -477,13 +477,8 @@ footer{
 .card-deck{
   margin-left: 3rem;
   margin-right: 3rem;
+  }
   
-}
-
-.card-title{
-  text-transform: uppercase;
-}
-
 .card-img-top{
   width: 250px;
   height: 250px;
@@ -505,7 +500,7 @@ width: 180px;
 
 @media (max-width: 767px){
   .modal-center-text{
-margin-left: 20%;
+   margin-left: 15%
         }
 }
 
@@ -625,7 +620,7 @@ margin-left: 20%;
 
  .card-title{
   font-weight: bold;
-  color: #dee2e6 !important;
+  color: #212529 !important;
   font-size: 1rem !important;
   text-transform: uppercase;
  }

@@ -388,9 +388,6 @@ footer {
   margin-left: 3rem;
   margin-right: 3rem; }
 
-.card-title {
-  text-transform: uppercase; }
-
 .card-img-top {
   width: 250px;
   height: 250px; }
@@ -408,7 +405,7 @@ footer {
 
 @media (max-width: 767px) {
   .modal-center-text {
-    margin-left: 20%; } }
+    margin-left: 15%; } }
 
 .card-footer {
   background-color: #dee2e6; }
@@ -503,7 +500,7 @@ footer {
 
 .card-title {
   font-weight: bold;
-  color: #dee2e6 !important;
+  color: #212529 !important;
   font-size: 1rem !important;
   text-transform: uppercase; }
 
