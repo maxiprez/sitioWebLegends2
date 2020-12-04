@@ -472,10 +472,10 @@ footer {
 .image {
   position: relative; }
 
-.image__img {
-  display: block;
-  width: 100%; }
-
+/*.image__img{
+      display: block;
+      width: 100%;
+    }*/
 .image__overlay {
   position: absolute;
   top: 0;
@@ -545,3 +545,15 @@ footer {
 @media (max-width: 581px) {
   .parrafo-sobreNosotros {
     font-size: 15px; } }
+
+@media (max-width: 581px) {
+  .container-ig {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; } }
+
+@media (max-width: 581px) {
+  .img-thumbnail {
+    width: 250px;
+    height: 250px; } }
