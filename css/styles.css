@@ -113,7 +113,10 @@ body {
   text-transform: uppercase; }
 
 .about-container {
-  background-color: black; }
+  background-color: black;
+  position: relative;
+  top: 200px;
+  margin-bottom: 100px !important; }
 
 .about-text {
   padding: 2rem !important;
@@ -130,7 +133,11 @@ body {
   color: #f8f9fa; }
 
 .productos-container {
-  background-color: #495057 !important; }
+  background-color: #495057 !important;
+  position: relative;
+  top: 10rem;
+  bottom: 10rem;
+  padding-bottom: 2rem !important; }
 
 /* FORMULARIO DE CONTACTO: */
 .body-form {

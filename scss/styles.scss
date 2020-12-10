@@ -150,7 +150,10 @@ font-size: 1.5rem;
       .about-container{
         background-color: black;
         @extend.productos-about-container;
-         }
+        position: relative;
+        top: 200px;
+        margin-bottom: 100px !important;
+                }
 
       .about-text{
         padding: 2rem !important;
@@ -167,13 +170,17 @@ font-size: 1.5rem;
     font-size: 2.5rem;
     font-family: 'Roboto', sans-serif;
     color: #f8f9fa;
-   
-  }
+     }
 
    .productos-container{
     background-color: #495057 !important;
     @extend.productos-about-container;
-   }
+    position: relative;
+    top: 10rem;
+    bottom: 10rem;
+    padding-bottom: 2rem !important;
+           }
+
 
 /* FORMULARIO DE CONTACTO: */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
@@ -391,10 +398,12 @@ footer{
 .footer-distributed .footer-icons{
 	margin-top: 25px;
 }
+
 .iconosFooter{
   width: 5px;
   height: 5px;
 }
+
 .footer-distributed .footer-icons a{
 	display: inline-block;
 	width: 35px;
@@ -619,7 +628,7 @@ width: 180px;
     font-family: 'Roboto', sans-serif;
   }
 
- .card-text-novedades{
+   .card-text-novedades{
    color: #dee2e6 !important;
    font-size: 1rem !important;
    text-transform: uppercase;
